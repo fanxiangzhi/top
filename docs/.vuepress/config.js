@@ -9,13 +9,13 @@ module.exports = {
 			{ text: '首页', link: '/', target: '_self'},
 			{ text: '开源', 
 			  items: [
-			  {text:'前端',link:'/'},
-			  {text:'app',link:'/'},
-			  {text:'其他',link:'/'}
+			  {text:'前端',link:'/nav/font/'},
+			  {text:'app',link:'/nav/app/'},
+			  {text:'其他',link:'/nav/other/'}
 			  ]
 			},
 			{
-				text:'我的', link:'/'
+				text:'我的', link:'/nav/my/'
 			}
 		],
 		sidebar: [
@@ -27,4 +27,7 @@ module.exports = {
 	search: true,
 	searchMaxSuggestions: 10,
     lastUpdated: 'Last Updated',
+    "devDependencies": {
+        "vuepress": "^0.14.8"
+    }
 }
