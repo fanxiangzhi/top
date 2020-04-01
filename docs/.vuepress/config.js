@@ -1,7 +1,7 @@
 module.exports = {
 	title: '达摩猿',
 	description: '等风来',
-	base: '/top/',
+	base: '/',
 	host: '0.0.0.0',
 	port: '8851',
 	themeConfig: {
@@ -12,9 +12,10 @@ module.exports = {
 			  {text:'前端',link:'/nav/font/'},
 			  {text:'app',link:'/nav/app/'},
 			  {text:'杂项', items:[
-				  {text:'杂项一',link:'/nav/other/'},
-                  {text:'杂项二',link:'/nav/other/'}
-			  ]},
+                  {text:'杂项一',link:'/nav/other/othera/'},
+                  {text:'杂项二',link:'/nav/other/otherb/'}
+			  ]
+              },
 			  {text:'工具', items: [
 			  	{text:'git',link:'/nav/tools/git/'}, {text:'jdk',link:'/nav/tools/jdk/'}
 			  	]
@@ -23,7 +24,7 @@ module.exports = {
 			},
 			{
 				text:'我的', items: [
-				{text:'说明',link:'/nav/my/'},
+				{text:'说明',link:'/nav/my/' ,target:'_blank'},
                 {text:'简介',link:'/nav/my/'}
 				]
 			}
