@@ -1,13 +1,19 @@
 ![gezi](http://renzaijianghu.club/huozhe/static/img/logo-login.png)
 
+## 达摩猿是什么？
+达摩猿是一个个人知识分享平台。
+
+## 达摩猿是如何运作的？
+达摩猿是采用VuePress构建，GitHub发布的纯静态文档类网站。
+
 ## VuePress是什么？
 Vue 驱动的静态网站生成器
 
+## GitHub是什么？
+GitHub是一个面向开源及私有软件项目的托管平台，因为只支持git 作为唯一的版本库格式进行托管，故名GitHub。
+
 ## md文件是什么?
 Machine Description文件 ：包括一个目标机器支持的每个指令的指令模式的开发文件，被 GNU 编译程序集（GCC）引用，通常用于Unix系统中的编译程序
-
-## 达摩猿是什么？
-达摩猿是一个个人知识分享平台。
 
 ## VuePress有哪些功能？
 
