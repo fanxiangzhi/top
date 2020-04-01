@@ -11,11 +11,21 @@ module.exports = {
 			  items: [
 			  {text:'前端',link:'/nav/font/'},
 			  {text:'app',link:'/nav/app/'},
-			  {text:'其他',link:'/nav/other/'}
+			  {text:'杂项', items:[
+				  {text:'杂项一',link:'/nav/other/'},
+                  {text:'杂项二',link:'/nav/other/'}
+			  ]},
+			  {text:'工具', items: [
+			  	{text:'git',link:'/nav/tools/git/'}, {text:'jdk',link:'/nav/tools/jdk/'}
+			  	]
+			  }
 			  ]
 			},
 			{
-				text:'我的', link:'/nav/my/'
+				text:'我的', items: [
+				{text:'说明',link:'/nav/my/'},
+                {text:'简介',link:'/nav/my/'}
+				]
 			}
 		],
 		sidebar: [
