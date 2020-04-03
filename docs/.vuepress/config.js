@@ -1,7 +1,7 @@
 module.exports = {
 	title: '达摩猿',
 	description: '等风来',
-	base: '/',
+	base: '/distb/',
 	host: '0.0.0.0',
 	port: '8851',
 	themeConfig: {
@@ -24,7 +24,6 @@ module.exports = {
 			},
 			{
 				text:'我的', items: [
-				{text:'说明',link:'/nav/my/' ,target:'_blank'},
                 {text:'简介',link:'/nav/my/'}
 				]
 			}
